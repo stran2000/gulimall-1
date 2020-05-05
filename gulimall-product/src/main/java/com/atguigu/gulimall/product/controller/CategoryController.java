@@ -28,7 +28,7 @@ public class CategoryController {
     /**
      * 列表
      */
-    @RequestMapping("/list/search")
+    @RequestMapping("/list")
     //@RequiresPermissions("pms:category:list")
     public R list(@RequestParam Map<String, Object> params){
         PageUtils page = categoryService.queryPage(params);
