@@ -1,0 +1,15 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.227.200:8848
+    alicloud:
+      access-key: LTAI4G75xDF2GRqYQANxJwTw
+      secret-key: 2dP8NBwzFTJP5mNmP64dNqKbfpaBqg
+      oss:
+        endpoint: oss-cn-qingdao.aliyuncs.com
+        bucket: gulimall-ossdemo
+  application:
+    name: gulimall-third-party
+server:
+  port: 30000
